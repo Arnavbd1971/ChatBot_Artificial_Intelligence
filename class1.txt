@@ -1,0 +1,174 @@
+{
+  Built in functions :
+    del() >>>>>   len() >>>>> max() >>>>> min() >>>>>> append() >>>>>> clear() >>>>>> keys() >>>>> values() >>>>> update()
+    
+}
+
+------------------ String ----------------------
+
+name1 = "arnav"
+name2 = "Bhowmik"
+
+""" slice it """
+
+name1[0:2]
+o>> arn
+
+------------------ String ----------------------
+
+
+------------------ list [array is known as list in python]------------------------
+
+shoping1 = ["eggs","milk","choclate"]
+ 
+shoping1[2]  """ get index """
+o>> milk
+
+del shoping1[2]   """ del function delete an iteam from the list """
+o>>['eggs','milk']
+
+len(shoping1) """ By this len function we can know how many iteams are available in that list"""
+
+
+
+numArray = [36,75,1004,1,-5]
+
+max(numArray)  """ max function can get the max value from the list."""
+o>> 1004
+
+min(numArray)  """ min array can get the min value from the list. """
+
+numArray.append(10) """ append function add an iteam in a list """
+
+numArray.count(75)  """ use function for count the number of iteams in list """
+
+------------------ list ------------------------
+
+
+------------------ Dictionaries ----------------
+
+productDec = {"egg":10,"tomato":30,"lemon":50}
+
+productDec["lemon"]
+o>> 50
+
+del productDec["lemon"] """ for delete an iteam of dectionary """
+
+productDec.clear()      """ Clear function clear all the records of the dectionary """
+o>>{}
+
+productDec.keys()  """ key function used for to know the keys in a dectionary """
+o>> ['egg','tomato','lemon']
+
+productDec.values()
+o>> [10,30,50]     """ values function use to know the values in a dectionary """
+
+productDec2 = {"soup":12, "jani_na":16}
+productDec.update(productDec2)          """ update function used for update / Add kay and value in a dectionary """
+o>> productDec = {"egg":10,"tomato":30,"lemon":50,"soup":12, "jani_na":16}
+
+
+------------------ Dictionaries ----------------
+
+
+------------------ Tuples ----------------------
+
+tup1 = ("Maths",23,"Dogs")
+
+note: tuples values are constent/imutable object we can't add values in tuples. But we can slice data values of tuples and also can get index object like list
+
+------------------ Tuples ----------------------
+
+
+------------------ If else ----------------------
+ if something:
+      print('something')
+ elif something:
+      print('else if something')
+ else:
+      print('something else')
+
+
+------------------ If else ----------------------
+
+
+------------------ Relational operator  ----------------------
+
+  >  : gater then
+  <  : less then
+
+  >=  : gater then or equal
+  <=  : gater then or equal 
+
+  ==  : double equal
+  !=  : not equal
+  
+
+------------------ Relational operator ----------------------
+
+
+------------------ Logical operator  ----------------------
+
+  and  : and operator
+  or   : or operator
+  
+
+------------------ Logical operator ----------------------
+
+------------------ Loops ----------------------
+
+for loop >>>>>>>>>
+
+  for i in range(0,5,2):   """ starting_point, endding_point, count_by """
+    print(i)
+
+o> 0 1 2 3 4
+
+while loop >>>>>>>
+
+counter = 5
+
+while:counter<10:
+	print(counter)
+	counter = counter + 1
+
+
+nested loop >>>>>>
+
+	for i in range(0,5):
+		for a in range(0,5):
+			print(a)
+
+
+prime number >>>>>>>>>
+
+for i in range(2,30):
+...     j=2
+...     counter=0
+   	print("Start i = "+str(i)+" and j = "+str(j))
+        
+...     while j<i:
+...             if i % j == 0:
+...                     counter = 1 
+...                     j = j + 1
+			print("If i = "+str(i)+" and j = "+str(j))
+...             else:
+...                     j = j + 1
+			print("Else j = "+str(j)+" and i = "+str(i))
+...     if counter == 0:
+...             print(str(i)+" is a prime number.")
+...     else:
+...             counter = 0
+            counter = 0
+
+>>>>>>>> break >>>>>>>>>  continue >>>>>>>>>> pass
+
+------------------ Loops ----------------------
+
+
+
+
+
+
+
+
